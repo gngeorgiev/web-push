@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 
 app.use(express.static('.'))
 
-app.post('/send', (req, res) => {
+app.post('/send', function(req, res) {
     webPush.sendNotification(req.query.endpoint, 15).then(function () {
         res.sendStatus(201);   
     }, function (err) {

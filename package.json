@@ -1,0 +1,24 @@
+{
+  "name": "web-push-example",
+  "version": "1.0.0",
+  "description": "A simple web push example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gngeorgiev/web-push.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gngeorgiev/web-push/issues"
+  },
+  "homepage": "https://github.com/gngeorgiev/web-push#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "web-push": "^1.0.2"
+  }
+}

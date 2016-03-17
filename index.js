@@ -11,7 +11,7 @@ navigator.serviceWorker.register('./worker.js')
                     return subscription;
                 }
                 
-                return registration.pushManager.subscribe();
+                return registration.pushManager.subscribe({userVisibleOnly:true});
             });
     })
     .then(function (subscription) {
